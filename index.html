@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+	<script src="app.js" defer></script>
+
+    <title>Portfolio</title>
+</head>
+<body>
+    <nav class="navbar">
+	<div class="container">
+		<section class="wrapper">
+			<h1 class="brand"><a href="./index.html" class="brand-link">Branden Weber</a></h1>
+			<button type="button" class="burger" id="burger">
+				<span class="burger-line"></span>
+				<span class="burger-line"></span>
+				<span class="burger-line"></span>
+				<span class="burger-line"></span>
+			</button>
+			<div class="menu" id="menu">
+				<ul class="menu-inner">
+					<li class="menu-item"><a href="#home" class="menu-link active">Home</a></li>
+					<li class="menu-item"><a href="#about" class="menu-link">About</a></li>
+					<li class="menu-item"><a href="#myweight" class="menu-link">MyWeight</a></li>
+					<li class="menu-item"><a href="#easylist" class="menu-link">Easy List</a></li>
+					<li class="menu-item"><a href="#tinventory" class="menu-link">TInventory</a></li>
+					<li class="menu-item"><a href="#visualizer" class="menu-link">Pathfinding Visualizer</a></li>
+					<li class="menu-item"><a href="#mineshaft" class="menu-link">Mineshaft</a></li>
+					<li class="menu-item"><a href="#dungeon" class="menu-link">Dungeon</a></li>
+				</ul>
+			</div>
+		</section>
+	</div>
+</nav>
+
+<div id="home" class="home" style="overflow-x: hidden;">
+		<span>Hello, I'm</span>
+		<h1>Branden Weber</h1>
+		<p>a Software Developer</p>
+</div>
+
+
+<section id="about" class="about">
+	<h2 class="about-heading">About Me</h2>
+	<div class="about-txt">
+		<p>Hi, I’m Branden Weber,
+Since beginning my journey as a Software Developer/Game Developer, I’ve spent about 3 years working with Unity and C# and over the past year I’ve been working on Android apps. I’m currently on my final term for my bachelor’s degree in Computer Science with a concentration in Software Engineering from SNHU. I’m excited to learn more and continue to grow as a developer.</p>
+	</div>
+	<div class="about-img">
+		<img src="about-img.svg" alt="about-img">
+	</div>
+</section>
+
+<section id="myweight" class="myweight">
+	<h2 class="myweight-heading">MyWeight - Weight Tracker</h2>
+	<div class="weight-main">
+		<div class="weight-img">
+			<img src="MyWeightGS.png" alt="myweight">
+		</div>
+		<div class="weight-txt">
+			<p>MyWeight is a simple and easy to use Weight tracker with some helpful tools like BMI and Macro calculators. This was my first app I've created; I learned a lot about the app development process in Android throughout this project. This project was coded in Java and uses Firebase as its database backend. This project was a great first step into app development because it gave me a lot of practice in many different aspects of the app development process. The app uses joe64 Graph library for the graphs, and Google's Admob for ads in the app. The app is currently available on Google Play.</p>
+			<a href="https://play.google.com/store/apps/details?id=com.weberapps.myweight&hl=en_US&gl=US">Play Store</a>
+		</div>
+	</div>
+	<div class="other-myweight">
+			<div class="media">
+				<h4>Overview</h4>
+				<div class="main">
+					<iframe src="https://www.youtube.com/embed/oDfQEBdQtgY?autoplay=1&loop=1&playlist=oDfQEBdQtgY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="Youtube Clip">
+					</iframe>
+				</div>
+			</div>
+		<div class="media">
+			<h4>Statistics</h4>
+			<img src="GHTbUy6.jpg" alt="">
+		</div>
+	</div>
+</section>
+
+
+<section id="easylist" class="easylist">
+	<h2 class="easy-heading">Easy.List</h2>
+	<div class="easy-main">
+		<div class="easy-img">
+			<img src="Je1N7vU.jpg" alt="myweight">
+		</div>
+		<div class="easy-txt">
+			<p>Easy.List is a to-do list app that I’m currently working on. For this project I’m exploring some stuff I have not previously worked with like databinding, some custom recycler view features, fragments, and custom toolbars. I’m also trying to learn a bit more about and employ the MVVM architecture pattern throughout this application.</p>
+		</div>
+	</div>
+	<div class="other-easylist">
+			<div class="media">
+			<img src="FX7CSoP.jpg" alt="">
+			</div>
+		<div class="media">
+			<img src="9jPlkjx.jpg" alt="">
+		</div>
+	</div>
+</section>
+
+<section id="tinventory" class="myweight">
+	<h2 class="myweight-heading">TInventory</h2>
+	<div class="weight-main">
+		<div class="weight-img">
+			<h4>Features</h4>
+			<ul>
+				<li>Non Square Inventories</li>
+				<li>Size-based Items</li>
+				<li>Context Menu</li>
+				<li>Item Actions</li>
+				<li>Item Variants</li>
+				<li>Item Containers</li>
+				<li>Action Slots</li>
+				<li>Windows</li>
+			</ul>
+		</div>
+		<div class="weight-txt">
+			<p>TInventory is a tile-based inventory system for Unity and is coded in C#. The framework makes setting up a size-based inventory quick and easy. This was primarily created for use in my own games but is up on Github for those who want to adapt it to their own projects.</p>
+			<a href="https://github.com/iMrPez/TInventory">Github</a>
+		</div>
+	</div>
+</section>
+
+
+<section id="visualizer" class="easylist">
+	<h2 class="easy-heading">Pathfinding Visualizer</h2>
+	<div class="easy-main">
+		<div class="easy-img">
+			<img src="game.png" alt="myweight">
+		</div>
+		<div class="easy-txt">
+			<p>Pathfinding Visualizer is a simple visualizer for pathfinding algorithms. The project was created in Unity using C# for a school project. The project displays pathfinding algorithms working is way around walls to an end point placed by the user. Currently, only the A* and Greedy best-first algorithms are implemented in the project.</p>
+			<a href="https://github.com/iMrPez/Pathfinding-Visualizer">Github</a>
+		</div>
+	</div>
+</section>
+
+
+<section id="mineshaft" class="myweight">
+	<h2 class="myweight-heading">Mineshaft Attack</h2>
+	<div class="weight-main">
+		<div class="weight-img weight-iframe">
+			<div class="main">
+					<iframe src="https://ldjam.com/events/ludum-dare/48/mineshaft-attack">
+					</iframe>
+			</div>
+		</div>
+		<div class="weight-txt">
+			<p>Mineshaft Attack is a small roguelike endless shooter game I made for the Ludum Dare 48 Game jam. The game goes through an endless series of floors where you fight off roaches to get deeper into the cave. The game gets progressively more difficult as you get deeper, though for each floor you finish you get to pick one of 2 perks that makes you stronger as you go down the cave. The theme of the game jam was “Deeper and deeper,” and the game was made over about 20 hours in 2 days using Unity and coded using C#.</p>
+		</div>
+	</div>
+
+
+</section>
+
+
+<section id="dungeon" class="easylist">
+	<h2 class="easy-heading">Dungeon Generator</h2>
+	<div class="easy-main">
+		<div class="easy-img">
+			<img src="gif-sec.gif" alt="myweight">
+		</div>
+		<div class="easy-txt">
+			<p>The Dungeon Generator is a tool I made for a game I’m currently working on in Unity using C#. It allows you to generate a dungeon from custom prefabs made using Unity’s tile system. The dungeon generator and custom tile system together can build any size dungeon that has pathfinding built in. The system is not currently public, but I hope to make it public soon.</p>
+		</div>
+	</div>
+</section>
+
+
+
+
+
+<footer class="footer-distributed">
+
+			<div class="footer-left">
+				<h3>About<span>Branden Weber</span></h3>
+
+				<p class="footer-links">
+					<a href="#">Home</a>
+					|
+					<a href="#">Blog</a>
+					|
+					<a href="#">About</a>
+					|
+					<a href="#">Contact</a>
+				</p>
+
+				<p class="footer-company-name">© 2021 Developia Pvt. Ltd.</p>
+			</div>
+
+			<div class="footer-center">
+				<div>
+					<i class="fa fa-map-marker"></i>
+					  <p><span>XYZ,
+						Sector - 1</span>
+						NY - 00000</p>
+				</div>
+
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+11 11-111111</p>
+				</div>
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:support@eduonix.com">user@brandenweber.com</a></p>
+				</div>
+			</div>
+			<div class="footer-right">
+				<p class="footer-company-about">
+					<span>About the company</span>
+					We offer Software Solutions</p>
+				<div class="footer-icons">
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-instagram"></i></a>
+					<a href="#"><i class="fa fa-linkedin"></i></a>
+					<a href="#"><i class="fa fa-youtube"></i></a>
+				</div>
+			</div>
+		</footer>
+
+</body>
+</html>
